@@ -73,3 +73,96 @@ I first used the Windows `ipconfig` command to identify my local IP address and 
 
 The example results provided in the practical identified hundred live hosts:
 After completing the scan, I opened the **Topology** section in Zenmap, enabled the legend and saved the network topology in PDF format as required by the practical task.
+## Security Observations and Risk Analysis
+
+During the practical exercises, I observed several types of information that may be useful during a security assessment.
+
+| Observation | Potential Security Implication |
+|---|---|
+| Domain registration information is publicly available. | Can assist an attacker in gathering organizational and infrastructure information. |
+| Web technologies can be fingerprinted. | May help identify software components requiring further security review. |
+| Domain IP addresses can be resolved. | Helps identify the network endpoint associated with a domain. |
+| HTTP response headers reveal technical information. | May assist further application fingerprinting. |
+| WAF technology can be identified. | Provides insight into some aspects of the website's defensive architecture. |
+| Active hosts can be discovered on a local network. | Helps establish an initial view of the network's connected devices. |
+
+**Important:** These are reconnaissance observations and potential security considerations, not confirmed vulnerabilities. Additional authorized testing is necessary to establish whether any actual security weakness exists.
+
+## Recommendations
+
+Based on the observations from these practical exercises, I identified the following general security recommendations:
+
+1. Review publicly exposed information about web technologies and infrastructure.
+2. Keep website platforms, plugins, and components updated.
+3. Review HTTP response headers and minimize unnecessary technical information disclosure.
+4. Regularly review DNS records and remove obsolete or unnecessary entries.
+5. Properly configure and monitor Web Application Firewall rules.
+6. Conduct periodic internal network discovery.
+7. Investigate unexpected devices connected to organizational networks.
+8. Maintain updated network documentation and asset inventories.
+
+## Evidence and Screenshots
+
+I have included screenshots from the practical exercises to document the commands executed and the outputs obtained.
+
+The evidence directory contains the following activities:
+
+| Evidence | Activity |
+|---|---|
+| 1 | WHOIS lookup |
+| 2 | WhatWeb fingerprinting |
+| 3 | Nslookup DNS resolution |
+| 4 | Curl HTTP response inspection |
+| 5 | Wafw00f detection |
+| 6 | DNSRecon enumeration |
+| 7 | Zenmap network scan |
+| 8 | Zenmap network discovery and topology |
+
+Screenshots are stored in the `screenshots/` directory.
+
+## Key Learning Outcomes
+
+Through these activities, I developed a better understanding of the initial stages of penetration testing.
+
+Some of the important things I learned include:
+
+- How publicly available information can contribute to reconnaissance.
+- How different tools collect different types of information about a target.
+- How DNS resolution and DNS enumeration work.
+- How to identify web technologies through fingerprinting.
+- How HTTP response headers provide information about web servers.
+- How to identify detectable WAF technologies.
+- How Nmap performs host discovery.
+- How Zenmap can visualize discovered network devices.
+- Why evidence collection and proper technical documentation are important in security assessments.
+
+Most importantly, I learned that reconnaissance is not simply about running tools and collecting outputs. It requires understanding what the results mean, determining whether an observation represents a genuine security concern, and documenting conclusions accurately.
+
+## Conclusion
+
+Week 2 gave me practical exposure to the reconnaissance, footprinting, and network discovery stages of penetration testing.
+
+By working with WHOIS, WhatWeb, Nslookup, Curl, Wafw00f, DNSRecon, Nmap, and Zenmap, I gained experience collecting and interpreting information from both web-facing infrastructure and a local network.
+
+These activities helped strengthen my understanding of how penetration testers approach an environment before moving into deeper security assessment activities.
+
+I also gained experience organizing technical evidence, identifying potential security implications, and presenting observations through a structured penetration testing report.
+
+This repository represents my practical learning and documentation from Week 2 of my cybersecurity internship.
+
+---
+
+## Authorization and Disclaimer
+
+All testing activities documented in this repository were performed as part of educational cybersecurity practicals and within the applicable authorized scope.
+
+The information is provided for educational and learning purposes only. Reconnaissance and network scanning should only be performed on systems and networks for which appropriate authorization has been obtained.
+
+I do not support or encourage unauthorized access, scanning, or misuse of cybersecurity tools.
+
+---
+
+**Documented by:** Maryam Zafar 
+**Internship Module:** Week 2  
+**Domain:** Cybersecurity & Ethical Hacking  
+**Repository:** Week-2-Penetration-Testing-Report
