@@ -145,4 +145,4 @@ Finally, I learned that reconnaissance and scanning must always be performed wit
 # 8. Evidences Collected
 
 *Screenshots collected as evidence during the activities (stored in the `screenshots/` folder):*
-
+![Whois](Whois-Screenshot-1.png)
