@@ -146,3 +146,20 @@ Finally, I learned that reconnaissance and scanning must always be performed wit
 
 *Screenshots collected as evidence during the activities (stored in the `screenshots/` folder):*
 
+<img width="1366" height="662" alt="Whois-Screenshot-1" src="https://github.com/user-attachments/assets/5f310f72-6d1f-496a-9a0a-e7b0b8dc27c2" />
+
+
+<img width="1366" height="662" alt="whatweb-screenshot" src="https://github.com/user-attachments/assets/f7068be0-9693-4dc1-be63-4f578dfc6dea" />
+
+<img width="1366" height="662" alt="nslookup-screenshot" src="https://github.com/user-attachments/assets/d16053ad-8232-40a9-8415-136359050a64" />
+
+<img width="1366" height="662" alt="wafwoof-screenshot" src="https://github.com/user-attachments/assets/4fec5a7e-9344-4dfc-ae1d-836b82883c1b" />
+
+
+<img width="1366" height="662" alt="dnsRecon-screenshot" src="https://github.com/user-attachments/assets/9a87f2b3-dff0-4934-aa9c-0936fac11636" />
+
+
+<img width="1366" height="662" alt="curl-screenshot" src="https://github.com/user-attachments/assets/5cf2edb9-66e9-4cd5-bffb-e9b75761d8f2" />
+<img width="1366" height="768" alt="Zenmap_screenshot" src="https://github.com/user-attachments/assets/becb1393-3a6f-40e7-93a6-ba88d2f07332" />
+
+
