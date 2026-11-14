@@ -5,6 +5,30 @@
 ![Focus](https://img.shields.io/badge/Focus-Penetration%20Testing-red)
 ![Week](https://img.shields.io/badge/Internship-Week%2002-orange)
 ![Platform](https://img.shields.io/badge/Platform-Kali%20Linux%20%7C%20Windows-lightgrey)
+## Overview
+
+This repository documents the practical activities I completed during the second week of my cybersecurity internship.
+
+The primary focus of this week's practical work was understanding how reconnaissance, footprinting, and network scanning are performed during the initial stages of a penetration test.
+
+I worked with multiple reconnaissance tools in Kali Linux to collect publicly available information about a target domain. I also used Nmap through its graphical interface, Zenmap, to discover active hosts on my local network.
+
+Throughout these exercises, I focused not only on executing commands but also on understanding the information returned by each tool, interpreting its security implications, and documenting the results with supporting evidence.
+
+## Objectives
+
+The main objectives of these practical exercises were:
+
+- Understand the reconnaissance and footprinting phases of penetration testing.
+- Gather publicly available information about a domain.
+- Identify web technologies and services exposed by a website.
+- Understand DNS records and domain resolution.
+- Inspect HTTP response headers.
+- Identify whether a Web Application Firewall (WAF) is present.
+- Perform network discovery using Nmap and Zenmap.
+- Identify active hosts within an authorized local network.
+- Document observations, potential risks, and security recommendations.
+
 
 
 # 3. Tools Used
