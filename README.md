@@ -1,4 +1,12 @@
 # Week2-Penetration-Testing-Report
+### Cybersecurity Internship | Reconnaissance, Footprinting & Network Scanning
+
+![Cybersecurity](https://img.shields.io/badge/Domain-Cybersecurity-blue)
+![Focus](https://img.shields.io/badge/Focus-Penetration%20Testing-red)
+![Week](https://img.shields.io/badge/Internship-Week%2002-orange)
+![Platform](https://img.shields.io/badge/Platform-Kali%20Linux%20%7C%20Windows-lightgrey)
+
+
 # 3. Tools Used
 
 The table below lists each tool used in this report and its purpose.
